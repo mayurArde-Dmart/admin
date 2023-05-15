@@ -1,0 +1,58 @@
+.home-root {
+  height: 100%;
+}
+.home-title {
+  margin: 16px !important;
+  font-weight: 500 !important;
+}
+.home-last-invoice {
+  font-weight: 500 !important;
+  position: absolute;
+  right: 16px;
+  top: 16px;
+}
+.home-menu-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 32px;
+  margin: 16px 32px;
+}
+.home-btn-pos {
+  width: 200px;
+  height: 120px;
+  display: flex !important;
+  flex-direction: column;
+  padding: 0px 0px !important;
+}
+.home-btn-pos-text {
+  font-weight: 500 !important;
+  font-size: 2rem !important;
+  line-height: 1 !important;
+}
+.home-btn-tile {
+  background-color: #ffffff;
+  border: 0.65px solid #0e7590;
+  border-radius: 12px !important;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.51), -2px 2px 4px 0 rgba(0, 0, 0, 0.36);
+  width: 180px;
+  height: 180px;
+  display: flex !important;
+  flex-direction: column;
+  padding: 16px !important;
+  justify-content: center !important;
+  align-items: center !important;
+}
+.home-btn-tile-image {
+  width: 50px;
+  object-fit: contain;
+  height: 50px;
+  margin-bottom: 24px;
+}
+.home-btn-tile-text {
+  font-size: 16px !important;
+  font-weight: 600 !important;
+  text-transform: uppercase;
+  text-align: center;
+  width: 114px;
+  letter-spacing: 1.43;
+}

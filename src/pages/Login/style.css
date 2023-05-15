@@ -1,0 +1,49 @@
+.login_title {
+  color: rgba(0, 0, 0, 0.85);
+  margin-bottom: 24px; /* replace theme.spacing(4) with 24px */
+  text-decoration: underline;
+  font-size: 24px;
+  letter-spacing: 2.14px;
+  line-height: 32.68px;
+  text-align: center;
+}
+
+.login_root {
+  /* flex-grow: 1; */
+  display: flex;
+  flex-direction: column;
+  border: 1px solid gray;
+  width: 40vh;
+  justify-content: center;
+  align-items: center;
+  padding: 0.5rem;
+  border-radius: 5px;
+  align-items: center;
+  margin: auto;
+}
+
+.login_form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* flex-grow: 1; */
+  flex-direction: column;
+}
+
+.login_form > div {
+  width: 100%;
+}
+
+.login_links {
+  color: #0091ff;
+  margin-left: auto;
+}
+
+.login_submit {
+  margin-left: auto;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 16px;
+}

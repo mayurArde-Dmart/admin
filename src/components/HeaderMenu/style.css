@@ -1,0 +1,33 @@
+.header-root {
+  /* background: red; */
+}
+.header-container {
+  padding: 0px 16px;
+  background-color: #f7f7f7;
+}
+.header-toolbar {
+  min-height: 56px !important;
+  justify-content: space-between;
+}
+.header-image {
+  height: 26px;
+  width: auto;
+}
+.header-title {
+  font-weight: 600 !important;
+  font-size: 1.1rem !important;
+}
+.header-action-container {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+.header-action-button {
+  text-transform: none !important;
+}
+.header-menu-item-text {
+  font-weight: 600 !important;
+}
+.header-menu-paper {
+  background: red;
+}

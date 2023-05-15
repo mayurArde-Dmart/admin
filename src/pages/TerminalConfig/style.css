@@ -1,0 +1,23 @@
+.terminal_config_root {
+  height: 240;
+  flex-grow: 1;
+  max-width: 400;
+}
+
+.terminal_config_nested {
+  padding-left: 1rem;
+}
+
+.terminal_config_add_button {
+  margin: '0.3rem 0';
+  text-decoration: 'underline';
+  text-decoration-color: '#0563c1';
+  color: '#0563c1';
+}
+
+.terminal_config_tree_container {
+  border-right: '1px solid #D3D3D3';
+  height: '100%';
+  background-color: '#f6fafd';
+  padding: '0.5rem';
+}
